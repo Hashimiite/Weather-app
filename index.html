@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Search Box -->
+        <div class="search-box">
+            <i class="fas fa-location-dot"></i>
+            <input type="text" id="location-input" placeholder="Enter your location" aria-label="Enter location">
+            <button id="search-button" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <!-- container for search suggestions -->
+        <div class="suggestions" id="suggestions"></div>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+
+        <!-- Error Message -->
+        <div class="not-found" id="not-found">
+            <img src="404.png" alt="Error">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <!-- Weather Data -->
+        <div class="weather-box" id="weather-box">
+            <p class="temperature" id="temperature"></p>
+            <p class="description" id="description"></p>
+        </div>
+
+        <!-- Weather Details -->
+        <div class="weather-details" id="weather-details">
+            <div class="humidity">
+                <i class="fas fa-tint"></i>
+                <div class="text">
+                    <span id="humidity"></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span id="wind-speed"></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
