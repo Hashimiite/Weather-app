@@ -16,6 +16,3 @@ A simple and interactive **Weather App** that allows users to search for weather
 
 ---
 
-## 📂 Project Structure
-Weather-App/ │── index.html # Main HTML structure │── index.js # JavaScript logic for fetching and displaying weather data │── styles.css # Stylesheet for the app │── assets/ # Images and icons
-
