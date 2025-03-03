@@ -14,5 +14,3 @@ A simple and interactive **Weather App** that allows users to search for weather
 - ⚡ **Loading Animation** – Shows a spinner while fetching weather data.  
 - ❌ **Error Handling** – Displays a message if the city is not found.  
 
----
-
