@@ -186,7 +186,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-top: 5px;
-    display: none; /* Hide by default */
+    display: none;
 }
 
 .suggestions div {
